@@ -34,17 +34,18 @@ LIBS:A1326
 LIBS:MCP601
 LIBS:lm1117
 LIBS:MCP602
+LIBS:Chimaera_SU-16_Unit-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Chimaera Sensor Unit"
-Date "18 jul 2013"
-Rev "4"
-Comp "Open Music Kontrollers (Hanspeter Portner)"
+Title "Chimaera Sensor Unit (SU-16)"
+Date "13 aug 2013"
+Rev "7"
+Comp "Open Music Kontrollers (www.open-music-kontrollers.ch)"
 Comment1 "Licensed under CERN OHL v.1.1"
-Comment2 ""
+Comment2 "Copyright (c) 2013 Hanspeter Portner (dev@open-music-kontrollers.ch)"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -264,7 +265,7 @@ Text GLabel 6200 6950 2    60   Input ~ 0
 Vcc
 Text GLabel 5050 3050 0    60   Input ~ 0
 Ain
-Text GLabel 5400 850  0    60   Input ~ 0
+Text GLabel 5150 850  0    60   Input ~ 0
 Vdd
 Text GLabel 6550 850  2    60   Input ~ 0
 Vcc
@@ -520,6 +521,7 @@ F 0 "U2" H 6100 704 60  0000 C CNN
 F 1 "MCP1703" H 5950 1100 60  0000 C CNN
 F 2 "" H 5950 900 60  0001 C CNN
 F 3 "" H 5950 900 60  0001 C CNN
+F 4 "MCP1703-5002E/DB-ND" H 5950 900 60  0001 C CNN "Digi-Key"
 	1    5950 900 
 	1    0    0    -1  
 $EndComp
@@ -1355,8 +1357,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 850  6550 850 
 Wire Wire Line
-	5400 850  5550 850 
-Wire Wire Line
 	6800 7500 6800 7350
 Wire Wire Line
 	5050 5400 6600 5400
@@ -1390,4 +1390,15 @@ Wire Wire Line
 Wire Wire Line
 	6550 7050 6550 7350
 Connection ~ 5800 7050
+$Comp
+L DIODE D1
+U 1 1 5209E981
+P 5350 850
+F 0 "D1" H 5350 950 40  0000 C CNN
+F 1 "DIODE" H 5350 750 40  0000 C CNN
+F 2 "~" H 5350 850 60  0000 C CNN
+F 3 "~" H 5350 850 60  0000 C CNN
+	1    5350 850 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

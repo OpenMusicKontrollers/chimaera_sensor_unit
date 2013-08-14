@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Don 18 Jul 2013 23:12:28 CEST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Die 13 Aug 2013 18:57:50 CEST
 
 BeginCmp
 TimeStamp = /5002FC63;
@@ -116,7 +116,7 @@ BeginCmp
 TimeStamp = /5005E7B3;
 Reference = C16;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -257,6 +257,13 @@ TimeStamp = /5166E045;
 Reference = C36;
 ValeurCmp = 1uF;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209E981;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = SOD123W;
 EndCmp
 
 BeginCmp
