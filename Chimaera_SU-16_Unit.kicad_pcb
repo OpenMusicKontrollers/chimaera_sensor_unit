@@ -64,7 +64,7 @@
     (mod_edge_width 0.381)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 10 3)
+    (pad_size 1.2 1.2)
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 12.0015 11.99896)
