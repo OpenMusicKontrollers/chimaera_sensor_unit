@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../gerber/SU-16_Unit/rev7/))
+      (outputdirectory ~/print))
   )
 
   (net 0 "")
