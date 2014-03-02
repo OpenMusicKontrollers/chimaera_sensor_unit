@@ -1,8 +1,15 @@
-update=Son 02 Mär 2014 11:38:33 CET
-last_client=kicad
+update=Son 02 Mär 2014 17:41:23 CET
+last_client=pcbnew
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=../libs
+LibDir=../kicad_libs
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -44,19 +51,14 @@ LibName32=A1326
 LibName33=MCP601
 LibName34=lm1117
 LibName35=MCP602
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=Chimaera_SU-16_Unit.net
+LastNetListRead=chimaera_sensor_unit.net
 UseCmpFile=1
-PadDrill="    0.000000"
-PadDrillOvalY="    0.000000"
-PadSizeH="   10.000000"
-PadSizeV="    3.000000"
+PadDrill="    0.900000"
+PadDrillOvalY="    0.900000"
+PadSizeH="    1.500000"
+PadSizeV="    2.000000"
 PcbTextSizeV="    2.032000"
 PcbTextSizeH="    1.524000"
 PcbTextThickness="    0.304800"
@@ -69,7 +71,7 @@ DrawSegmentWidth="    0.381000"
 BoardOutlineThickness="    0.381000"
 ModuleOutlineThickness="    0.381000"
 [pcbnew/libraries]
-LibDir=../mods
+LibDir=../kicad_mods
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -91,5 +93,3 @@ LibName18=oshw-logo
 LibName19=omk_chimaera_logo_inverted
 LibName20=stencilizer
 LibName21=SOD123W
-[general]
-version=1

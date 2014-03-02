@@ -34,7 +34,7 @@ LIBS:A1326
 LIBS:MCP601
 LIBS:lm1117
 LIBS:MCP602
-LIBS:Chimaera_SU-16_Unit-cache
+LIBS:chimaera_sensor_unit-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
