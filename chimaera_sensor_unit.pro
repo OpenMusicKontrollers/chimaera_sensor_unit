@@ -1,54 +1,10 @@
-update=Son 02 Mär 2014 19:12:20 CET
-last_client=eeschema
+update=Mon 05 Mai 2014 19:38:25 CEST
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
-[pcbnew]
-version=1
-LastNetListRead=chimaera_sensor_unit.net
-UseCmpFile=1
-PadDrill="    0.900000"
-PadDrillOvalY="    0.900000"
-PadSizeH="    1.500000"
-PadSizeV="    2.000000"
-PcbTextSizeV="    2.032000"
-PcbTextSizeH="    1.524000"
-PcbTextThickness="    0.304800"
-ModuleTextSizeV="    1.524000"
-ModuleTextSizeH="    1.524000"
-ModuleTextSizeThickness="    0.304800"
-SolderMaskClearance="    0.000000"
-SolderMaskMinWidth="    0.000000"
-DrawSegmentWidth="    0.381000"
-BoardOutlineThickness="    0.381000"
-ModuleOutlineThickness="    0.381000"
-[pcbnew/libraries]
-LibDir=../kicad_mods
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=led
-LibName9=dip_sockets
-LibName10=pga_sockets
-LibName11=valves
-LibName12=TO-252-3
-LibName13=MCP601
-LibName14=sock-4
-LibName15=SOT23W
-LibName16=ST-4EB
-LibName17=omk_chimaera_logo
-LibName18=oshw-logo
-LibName19=omk_chimaera_logo_inverted
-LibName20=stencilizer
-LibName21=SOD123W
 [eeschema]
 version=1
 LibDir=../kicad_libs
@@ -93,3 +49,48 @@ LibName32=A1326
 LibName33=MCP601
 LibName34=lm1117
 LibName35=MCP602
+[pcbnew]
+version=1
+LastNetListRead=chimaera_sensor_unit.net
+UseCmpFile=1
+PadDrill="    0.900000"
+PadDrillOvalY="    0.900000"
+PadSizeH="    1.500000"
+PadSizeV="    2.000000"
+PcbTextSizeV="    2.032000"
+PcbTextSizeH="    1.524000"
+PcbTextThickness="    0.304800"
+ModuleTextSizeV="    1.524000"
+ModuleTextSizeH="    1.524000"
+ModuleTextSizeThickness="    0.304800"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.381000"
+BoardOutlineThickness="    0.381000"
+ModuleOutlineThickness="    0.381000"
+[pcbnew/libraries]
+LibDir=../kicad_mods
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=led
+LibName9=dip_sockets
+LibName10=pga_sockets
+LibName11=valves
+LibName12=TO-252-3
+LibName13=MCP601
+LibName14=sock-4
+LibName15=SOT23W
+LibName16=ST-4EB
+LibName17=omk_chimaera_logo
+LibName18=oshw-logo
+LibName19=omk_chimaera_logo_inverted
+LibName20=stencilizer
+LibName21=SOD123W
+LibName22=omk_logo
+[general]
+version=1

@@ -41,11 +41,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Chimaera Sensor Unit (SU-16)"
-Date "2 jan 2014"
-Rev "7"
+Date "5 may 2014"
+Rev "7-3v3"
 Comp "Open Music Kontrollers (www.open-music-kontrollers.ch)"
 Comment1 "Licensed under CERN OHL v.1.2"
-Comment2 "Copyright (c) 2013 Hanspeter Portner (dev@open-music-kontrollers.ch)"
+Comment2 "Copyright (c) 2014 Hanspeter Portner (dev@open-music-kontrollers.ch)"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -529,7 +529,7 @@ F 0 "U2" H 6100 704 60  0000 C CNN
 F 1 "MCP1703" H 5950 1100 60  0000 C CNN
 F 2 "" H 5950 900 60  0001 C CNN
 F 3 "" H 5950 900 60  0001 C CNN
-F 4 "MCP1703-5002E/DB-ND" H 5950 900 60  0001 C CNN "Digi-Key"
+F 4 "MCP1703-3302E/DB" H 5950 900 60  0001 C CNN "Digi-Key"
 	1    5950 900 
 	1    0    0    -1  
 $EndComp

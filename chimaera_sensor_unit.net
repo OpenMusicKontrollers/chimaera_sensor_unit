@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hp/omk/chimaera_sensor_unit/chimaera_sensor_unit.sch)
-    (date "Son 02 Mär 2014 18:01:25 CET")
+    (date "Mon 05 Mai 2014 18:46:48 CEST")
     (tool "eeschema (2013-may-18)-stable"))
   (components
     (comp (ref RV3)
@@ -73,7 +73,7 @@
     (comp (ref U2)
       (value MCP1703)
       (fields
-        (field (name Digi-Key) MCP1703-5002E/DB-ND))
+        (field (name Digi-Key) MCP1703-3302E/DB))
       (libsource (lib lm1117) (part LM1117))
       (sheetpath (names /) (tstamps /))
       (tstamp 50ED77A5))
@@ -600,16 +600,6 @@
         (pin (num 22) (name i9) (type input))
         (pin (num 23) (name i8) (type input))
         (pin (num 24) (name vcc) (type power_in))))
-    (libpart (lib A1326) (part A1326)
-      (fields
-        (field (name Reference) S)
-        (field (name Value) A1326)
-        (field (name Footprint) MODULE)
-        (field (name Datasheet) DOCUMENTATION))
-      (pins
-        (pin (num 1) (name vcc) (type input))
-        (pin (num 2) (name gnd) (type passive))
-        (pin (num 3) (name vout) (type output))))
     (libpart (lib MCP602) (part MCP602)
       (fields
         (field (name Reference) U)
@@ -625,6 +615,16 @@
         (pin (num 6) (name VInB-) (type input))
         (pin (num 7) (name VOutB) (type output))
         (pin (num 8) (name Vdd) (type power_in))))
+    (libpart (lib A1326) (part A1326)
+      (fields
+        (field (name Reference) S)
+        (field (name Value) A1326)
+        (field (name Footprint) MODULE)
+        (field (name Datasheet) DOCUMENTATION))
+      (pins
+        (pin (num 1) (name vcc) (type input))
+        (pin (num 2) (name gnd) (type passive))
+        (pin (num 3) (name vout) (type output))))
     (libpart (lib lm1117) (part LM1117)
       (fields
         (field (name Reference) U)
