@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Son 02 Mär 2014 18:01:31 CET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Die 20 Mai 2014 12:05:09 CEST
 
 BeginCmp
 TimeStamp = /5002FC63;
@@ -267,6 +267,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /537B2936;
+Reference = C38;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5209E981;
 Reference = D1;
 ValeurCmp = DIODE;
@@ -305,13 +312,6 @@ BeginCmp
 TimeStamp = /50ED7ED6;
 Reference = RV1;
 ValeurCmp = 200k;
-IdModule  = ST-4EB;
-EndCmp
-
-BeginCmp
-TimeStamp = /50F190BA;
-Reference = RV2;
-ValeurCmp = 5k;
 IdModule  = ST-4EB;
 EndCmp
 
@@ -442,9 +442,9 @@ IdModule  = SOIC24-WIDE;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E7CC5C;
+TimeStamp = /5374FB19;
 Reference = U1;
-ValeurCmp = MCP602;
+ValeurCmp = MCP601;
 IdModule  = SO8N;
 EndCmp
 
